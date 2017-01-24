@@ -1,0 +1,111 @@
+.section01 {
+    height: 525px;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section01-layout {
+    position: relative;
+    width: 980px;
+    height: 525px;
+    margin: 0 auto;
+}
+
+.section01-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px 10px 30px;
+    background-color: #fff;
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 200%);
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 200%);
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 200%);
+    background: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 200%);
+    /*背景色渐变是抄的*/
+}
+
+.section01-content .title {
+    text-align: right;
+    font-size: 14px;
+}
+
+.section01-content .article {
+    width: 340px;
+    font-size: 12px;
+    line-height: 1.5; /*使用纯数字行高会跟随font-size改变而改变*/
+}
+
+.section02 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background-color: #eee;
+    zoom: 1;
+}
+
+.section02-layout {
+    overflow: hidden; /*配合下面的超大负margin和padding实现白框高度一致*/
+    width: 980px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.section02-content {
+    float: left;
+    width: 320px;
+    margin-bottom: -999px;
+    padding-bottom: 999px;
+    /*text-align: center;*/
+    background-color: #fff;
+}
+
+.section02 .margin {
+    margin-right: 10px;
+}
+
+.section02-content .img {
+    margin: 10px 10px 0; /*浮动框内不会发生外边距叠加*/
+}
+
+.section02-content .content {
+    margin: 15px 30px 25px 30px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.section03 .layout {
+    text-align: center;
+}
+
+.section03 .img {
+    position: relative;
+    bottom: 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /*CSS3属性,如要求兼容性可以在四角贴图*/
+}
+
+.section03 .title {
+    font: 20px Century-Gothic;
+    text-align: center;
+}
+
+.section03 .article {
+    width: 600px;
+    margin: 40px auto 100px;
+    font-size: 14px;
+}
+
+
+.section02:after {
+    content: "."; /*如果内容为空,在Firefox低版本中将出现间隙*/
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
