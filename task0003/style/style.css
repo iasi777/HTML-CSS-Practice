@@ -1,0 +1,277 @@
+#main-wrap {
+    background-color: #eee;
+}
+
+#main {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+#main-left {
+    float: left;
+    width: 710px;
+    margin-right: 10px;
+}
+
+#main-right {
+    float: right;
+    width: 260px;
+}
+
+#left-nav {
+    font-size: 13px;
+    zoom: 1;
+}
+
+#left-nav .item {
+    float: left; /*对<li>使用display: inline-float;会更好处理，但是这里需要整个块都具有点击功能*/
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 55px;
+    border-bottom: 1px solid #CCC;
+    background-color: #fff;
+}
+
+#border01 {
+    border-top: 4px solid #E1C6E4;
+    border-right: 1px solid #CCC;
+}
+
+#left-nav #border01:hover {
+    border-top: 4px solid #542A59;;
+    border-bottom: 1px solid #FFF;
+}
+
+#border02 {
+    border-top: 4px solid #E1C6E4;;
+    border-right: 1px solid #CCC;
+}
+
+#left-nav #border02:hover {
+    border-top: 4px solid #542A59;
+    border-bottom: 1px solid #FFF;
+}
+
+#border03 {
+    border-top: 4px solid #D5A7F9;
+    border-right: 1px solid #CCC;
+}
+
+#left-nav #border03:hover {
+    border-top: 4px solid #5E0BAB;
+    border-bottom: 1px solid #FFF;
+}
+
+#border04 {
+    border-top: 4px solid #FFA890;
+    border-right: 1px solid #CCC;
+}
+
+#left-nav #border04:hover {
+    border-top: 4px solid #8F210B;
+    border-bottom: 1px solid #FFF;
+}
+
+#border05 {
+    border-top: 4px solid #FFE093;
+}
+
+#left-nav #border05:hover {
+    border-top: 4px solid #DBA234;
+    border-bottom: 1px solid #FFF;
+}
+
+#left-content {
+    padding: 20px 20px 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#left-content .left-layout {
+    float: left;
+    width: 330px;
+}
+
+#left-content .right-layout {
+    float: right;
+    width: 330px;
+}
+
+#left-content .inner-layout01 {
+    float: left;
+    width: 160px;
+}
+
+#left-content .inner-layout02 {
+    float: right;
+    width: 160px;
+}
+
+.content-item-J {
+    background-color: #800080;
+    margin-bottom: 10px;
+}
+
+.content-item-A {
+    background-color: #ffa500;
+    margin-bottom: 10px;
+}
+
+.content-item-F {
+    background-color: #8b0000;
+    margin-bottom: 10px;
+}
+
+.content-item-U {
+    background-color: #0C4E7C;
+    margin-bottom: 10px;
+}
+
+#left-content .item-layout {
+    position: relative;
+    padding: 10px 10% 10px 40px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.item-layout .type {
+    position: absolute;
+    left: 7px;
+    top: 15px;
+    width: 26px;
+    border-radius: 50%;
+    border: 1px solid #B8B2B9;
+    line-height: 26px;
+    text-align: center;
+}
+
+#more {
+    width: 710px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+#more .link {
+    display: inline-block; /*自带垂直对齐属性，可以对父元素设置text-align: center居中*/
+    width: 100px;
+    padding-left: 24px;
+    line-height: 50px;
+    background: url(../img/more.png) no-repeat left center;
+}
+
+#search {
+    position: relative;
+    width: 260px;
+    height: 82px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#search .layout {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 220px;
+    height: 42px;
+}
+
+#search .input {
+    float: left;
+    line-height: 38px;
+    height:  38px;
+    width: 117px;
+    border: 1px solid #DDD;
+    padding-left: 50px;
+    background: url(../img/search.png) no-repeat 8px center;
+}
+
+#search .submit {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: none;
+    background: #DDD url(../img/go.png) no-repeat center;
+}
+
+#hot {
+    padding: 20px 0 40px 20px;
+    background-color: #fff;
+}
+
+#hot .title {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#hot .item {
+    margin-bottom: 10px;
+    zoom: 1;
+}
+
+#hot .number {
+    float: left;
+    text-align: center;
+    width: 21px;
+    line-height: 21px;
+    color: #FFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 8px;
+    background-color: #542A59;
+}
+
+#hot .bar {
+    float: left;
+    height: 19px;
+    width: 80px;
+    border: 1px solid #542A59;
+    margin-right: 10px;
+}
+
+#hot .inner-bar01 {
+    width: 100%;
+    height: 100%;
+    background-color: #542A59;
+}
+
+#hot .inner-bar02 {
+    width: 80%;
+    height: 100%;
+    background-color: #542A59;
+}
+
+#hot .inner-bar03 {
+    width: 60%;
+    height: 100%;
+    background-color: #542A59;
+}
+
+#hot .inner-bar04 {
+    width: 40%;
+    height: 100%;
+    background-color: #542A59;
+}
+
+#hot .inner-bar05 {
+    width: 20%;
+    height: 100%;
+    background-color: #542A59;
+}
+
+/*#others {
+    float: left;
+}*/
+#left-nav:after, #main:after, #left-content:after, #hot .item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
